@@ -10,12 +10,17 @@ public class Area_Circulo {
         radio = Double.parseDouble(JOptionPane.showInputDialog("introduce el radio"));
         area = PI + Math.pow(3,4);
 
+        Double.parseDouble(JOptionPane.showInputDialog("a"));
 
 
 
 
 
-        System.out.println("el area del circulo con radio ");
+
+
+
+
+        System.out.println("el area del circulo con radio es ");
 
 
 

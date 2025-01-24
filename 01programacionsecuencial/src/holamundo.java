@@ -12,11 +12,11 @@ public class holamundo
         double a = 0.0 , y= 0.0 , z = 0.0 , x = 0.0 , b = 0.0;
 
                 String salida = "";
-//        a =Double.parseDouble(JOptionPane.showInputDialog("introduce el valor de a : "));
-//        y = Double.parseDouble(JOptionPane.showInputDialog("ingresa el valor de y : "));
-//        z = Double.parseDouble(JOptionPane.showInputDialog("ingresa el valor de z : "));
-//        x = Double.parseDouble(JOptionPane.showInputDialog("ingresa el valor de x "));
-//        b = Double.parseDouble(JOptionPane.showInputDialog("ingresa el valor de b "));
+        a =Double.parseDouble(JOptionPane.showInputDialog("introduce el valor de a : "));
+        y = Double.parseDouble(JOptionPane.showInputDialog("ingresa el valor de y : "));
+        z = Double.parseDouble(JOptionPane.showInputDialog("ingresa el valor de z : "));
+        x = Double.parseDouble(JOptionPane.showInputDialog("ingresa el valor de x "));
+        b = Double.parseDouble(JOptionPane.showInputDialog("ingresa el valor de b "));
 
         r = Math.pow(a + Math.pow(y, z+1) / (x-1) , 2);
         r2 = Math.pow(Math.sqrt(Math.pow(a-b,2)) /(4*x) ,z-1);
